@@ -1,3 +1,4 @@
+
 local getCondition = function(branchName, event) {
     instance: "ec2-3-87-144-94.compute-1.amazonaws.com",
     event: event,
