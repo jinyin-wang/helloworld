@@ -3,6 +3,7 @@ local getCondition = function(branchName, event) {
     event: event,
 };
 
+
 local build = function(branchName) {
     name: 'Build',
     image: 'maven:3.6.3-adoptopenjdk-11',
